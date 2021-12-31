@@ -199,7 +199,7 @@ X0 a_50_n86# a_n50_n112# a_n108_n86# w_n144_n148# sky130_fd_pr__pfet_01v8 ad=1.4
 X0 a_330_330# w_153_153# VSUBS sky130_fd_pr__pnp_05v0 area=4.624e+11p
 .ends
 
-.subckt bg__pnp_group VSUBS m1_1644_1644# m1_314_314# m1_900_900# m1_42_42#
+.subckt bg__pnp_group VSUBS m1_1644_1644# m1_314_314# m1_42_42# m1_900_900#
 Xbgpg__pnp_0 VSUBS m1_900_900# m1_314_314# m1_314_314# bgpg__pnp
 Xbgpg__pnp_1 VSUBS m1_900_900# m1_314_314# m1_314_314# bgpg__pnp
 Xbgpg__pnp_2 VSUBS m1_900_900# m1_314_314# m1_314_314# bgpg__pnp
@@ -300,7 +300,7 @@ Xbg__res_0 VSUBS m2_10413_1144# m2_9497_4459# m2_9497_4459# m2_9497_4259# m3_143
 + m4_n65_9016# m4_n65_9016# m2_11672_6286# bg__res
 Xbg__M1_1 VSUBS m3_8602_5959# m3_0_0# m3_0_0# m2_10413_1144# bg__M1
 Xbg__M1_0 VSUBS m3_8602_5959# m2_10413_1144# m3_0_0# m3_0_0# bg__M1
-Xbg__pnp_group_0 VSUBS m2_9497_4259# m4_n65_9016# m2_11672_6286# m3_0_0# bg__pnp_group
+Xbg__pnp_group_0 VSUBS m2_9497_4259# m4_n65_9016# m3_0_0# m2_11672_6286# bg__pnp_group
 Xbg__amplifier_0 VSUBS m4_n65_9016# m3_0_0# m3_8602_5959# m2_9497_4259# m3_0_5342#
 + m2_9497_4459# bg__amplifier
 Xbg__cap_0 VSUBS m3_8602_5959# m4_n65_9016# bg__cap
@@ -354,19 +354,19 @@ X0 a_50_n836# a_n50_n862# a_n108_n836# w_n144_n898# sky130_fd_pr__pfet_01v8_lvt 
 .subckt reg__M7_array VSUBS reg__M7_25/a_50_n836# reg__M7_15/a_50_n836# reg__M7_6/a_50_n836#
 + reg__M7_9/w_n144_n898# reg__M7_4/a_50_n836# reg__M7_24/a_50_n836# reg__M7_14/a_50_n836#
 + reg__M7_31/a_n108_n836# reg__M7_23/a_50_n836# reg__M7_13/a_50_n836# reg__M7_19/a_n50_n862#
-+ reg__M7_18/a_n50_n862# reg__M7_22/a_50_n836# reg__M7_16/a_n50_n862# reg__M7_17/a_n50_n862#
-+ reg__M7_5/a_50_n836# reg__M7_12/a_50_n836# reg__M7_15/a_n50_n862# reg__M7_31/a_50_n836#
-+ reg__M7_14/a_n50_n862# reg__M7_21/a_50_n836# reg__M7_12/a_n50_n862# reg__M7_13/a_n50_n862#
-+ reg__M7_2/a_50_n836# reg__M7_11/a_50_n836# reg__M7_11/a_n50_n862# reg__M7_30/a_50_n836#
-+ reg__M7_10/a_n50_n862# reg__M7_28/a_n50_n862# reg__M7_29/a_n50_n862# reg__M7_20/a_50_n836#
-+ reg__M7_8/a_n50_n862# reg__M7_9/a_n50_n862# reg__M7_27/a_n50_n862# reg__M7_1/a_50_n836#
++ reg__M7_18/a_n50_n862# reg__M7_22/a_50_n836# reg__M7_5/a_50_n836# reg__M7_16/a_n50_n862#
++ reg__M7_17/a_n50_n862# reg__M7_12/a_50_n836# reg__M7_15/a_n50_n862# reg__M7_31/a_50_n836#
++ reg__M7_14/a_n50_n862# reg__M7_21/a_50_n836# reg__M7_2/a_50_n836# reg__M7_12/a_n50_n862#
++ reg__M7_13/a_n50_n862# reg__M7_11/a_50_n836# reg__M7_30/a_50_n836# reg__M7_11/a_n50_n862#
++ reg__M7_20/a_50_n836# reg__M7_10/a_n50_n862# reg__M7_28/a_n50_n862# reg__M7_29/a_n50_n862#
++ reg__M7_1/a_50_n836# reg__M7_8/a_n50_n862# reg__M7_9/a_n50_n862# reg__M7_27/a_n50_n862#
 + reg__M7_10/a_50_n836# reg__M7_7/a_n50_n862# reg__M7_26/a_n50_n862# reg__M7_24/a_n50_n862#
-+ reg__M7_25/a_n50_n862# reg__M7_5/a_n50_n862# reg__M7_6/a_n50_n862# reg__M7_23/a_n50_n862#
-+ reg__M7_4/a_n50_n862# reg__M7_0/a_50_n836# reg__M7_21/a_n50_n862# reg__M7_22/a_n50_n862#
-+ reg__M7_3/a_n50_n862# reg__M7_1/a_n50_n862# reg__M7_2/a_n50_n862# reg__M7_20/a_n50_n862#
-+ reg__M7_19/a_50_n836# reg__M7_29/a_50_n836# reg__M7_0/a_n50_n862# reg__M7_18/a_50_n836#
-+ reg__M7_28/a_50_n836# reg__M7_9/a_50_n836# reg__M7_27/a_50_n836# reg__M7_31/a_n50_n862#
-+ reg__M7_17/a_50_n836# reg__M7_30/a_n50_n862# reg__M7_8/a_50_n836# reg__M7_3/a_50_n836#
++ reg__M7_25/a_n50_n862# reg__M7_5/a_n50_n862# reg__M7_6/a_n50_n862# reg__M7_0/a_50_n836#
++ reg__M7_23/a_n50_n862# reg__M7_4/a_n50_n862# reg__M7_21/a_n50_n862# reg__M7_22/a_n50_n862#
++ reg__M7_3/a_n50_n862# reg__M7_19/a_50_n836# reg__M7_1/a_n50_n862# reg__M7_2/a_n50_n862#
++ reg__M7_20/a_n50_n862# reg__M7_29/a_50_n836# reg__M7_0/a_n50_n862# reg__M7_18/a_50_n836#
++ reg__M7_28/a_50_n836# reg__M7_9/a_50_n836# reg__M7_27/a_50_n836# reg__M7_17/a_50_n836#
++ reg__M7_31/a_n50_n862# reg__M7_30/a_n50_n862# reg__M7_8/a_50_n836# reg__M7_3/a_50_n836#
 + reg__M7_26/a_50_n836# reg__M7_16/a_50_n836# reg__M7_7/a_50_n836#
 Xreg__M7_31 VSUBS reg__M7_31/a_50_n836# reg__M7_9/w_n144_n898# reg__M7_31/a_n50_n862#
 + reg__M7_31/a_n108_n836# reg__M7
@@ -566,14 +566,14 @@ Xreg__diffpair_0 VSUBS m2_3245_2377# m2_7057_1092# m3_3434_2394# m4_1820_6897# m
 + m3_0_380# reg__diffpair
 Xreg__M7_array_0 VSUBS m3_0_3027# m3_0_3287# m3_0_3287# m3_0_3027# m3_0_3287# m3_0_3027#
 + m3_0_3287# m3_0_3287# m3_0_3027# m3_0_3027# m4_1820_6897# m4_1820_6897# m3_0_3027#
-+ m4_1820_6897# m4_1820_6897# m3_0_3287# m3_0_3027# m4_1820_6897# m3_0_3027# m4_1820_6897#
-+ m3_0_3027# m4_1820_6897# m4_1820_6897# m3_0_3287# m3_0_3027# m4_1820_6897# m3_0_3287#
-+ m4_1820_6897# m4_1820_6897# m4_1820_6897# m3_0_3287# m4_1820_6897# m4_1820_6897#
-+ m4_1820_6897# m3_0_3287# m3_0_3027# m4_1820_6897# m4_1820_6897# m4_1820_6897# m4_1820_6897#
-+ m4_1820_6897# m4_1820_6897# m4_1820_6897# m4_1820_6897# m3_0_3287# m4_1820_6897#
-+ m4_1820_6897# m4_1820_6897# m4_1820_6897# m4_1820_6897# m4_1820_6897# m3_0_3287#
-+ m3_0_3027# m4_1820_6897# m3_0_3287# m3_0_3287# m3_0_3027# m3_0_3027# m4_1820_6897#
-+ m3_0_3287# m4_1820_6897# m3_0_3027# m3_0_3287# m3_0_3027# m3_0_3287# m3_0_3027#
++ m3_0_3287# m4_1820_6897# m4_1820_6897# m3_0_3027# m4_1820_6897# m3_0_3027# m4_1820_6897#
++ m3_0_3027# m3_0_3287# m4_1820_6897# m4_1820_6897# m3_0_3027# m3_0_3287# m4_1820_6897#
++ m3_0_3287# m4_1820_6897# m4_1820_6897# m4_1820_6897# m3_0_3287# m4_1820_6897# m4_1820_6897#
++ m4_1820_6897# m3_0_3027# m4_1820_6897# m4_1820_6897# m4_1820_6897# m4_1820_6897#
++ m4_1820_6897# m4_1820_6897# m3_0_3287# m4_1820_6897# m4_1820_6897# m4_1820_6897#
++ m4_1820_6897# m4_1820_6897# m3_0_3287# m4_1820_6897# m4_1820_6897# m4_1820_6897#
++ m3_0_3027# m4_1820_6897# m3_0_3287# m3_0_3287# m3_0_3027# m3_0_3027# m3_0_3287#
++ m4_1820_6897# m4_1820_6897# m3_0_3027# m3_0_3287# m3_0_3027# m3_0_3287# m3_0_3027#
 + reg__M7_array
 Xreg__Rdiv_0 VSUBS m3_0_3287# m3_0_380# m3_3434_2394# m3_0_380# reg__Rdiv
 Xreg__pmirr_0 VSUBS m3_0_3027# m4_1820_6897# m2_7057_1092# reg__pmirr
@@ -716,7 +716,7 @@ X0 a_400_n81# a_n400_n107# a_n458_n81# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45
 X0 a_1000_n86# a_n1000_n112# a_n1058_n86# w_n1094_n148# sky130_fd_pr__pfet_01v8_lvt ad=1.45e+11p pd=1.58e+06u as=1.45e+11p ps=1.58e+06u w=500000u l=1e+07u
 .ends
 
-.subckt bi__amplifier VSUBS m3_0_0# m3_0_380# m3_0_3692# m2_567_2404# m3_0_817# m3_0_2232#
+.subckt bi__amplifier VSUBS m2_567_2404# m3_0_0# m3_0_380# m3_0_3692# m3_0_817# m3_0_2232#
 Xbia__M1_3 VSUBS m2_727_2721# m2_2167_1048# m3_0_2232# bia__M2_1/w_n884_n107# bia__M1
 Xbia__M6_0 VSUBS m3_0_380# m3_0_817# m3_0_817# bia__M6
 Xbia__M6_1 VSUBS m3_0_380# m3_0_817# m3_0_817# bia__M6
@@ -909,7 +909,7 @@ Xbip__DUM1_7 VSUBS m3_0_1395# w_355_349# w_355_349# w_355_349# bip__DUM1
 + m3_0_380# m2_12350_0# m3_0_3692# m2_11650_0# m2_12770_0# m3_0_817# m2_12070_0# m2_13190_0#
 + m2_12910_0# m2_12490_0# m2_12210_0#
 Xbi__nmirr_0 VSUBS m3_0_380# m2_11790_0# m2_11650_0# m3_9769_5086# bi__nmirr
-Xbi__amplifier_0 VSUBS m3_0_0# m3_0_380# m3_0_3692# m4_6166_7354# m3_0_817# m4_253_2433#
+Xbi__amplifier_0 VSUBS m4_6166_7354# m3_0_0# m3_0_380# m3_0_3692# m3_0_817# m4_253_2433#
 + bi__amplifier
 Xbi__cfb_0 VSUBS m4_253_2433# m4_6166_7354# m4_253_2433# bi__cfb
 Xbi__rladder_0 m3_0_380# VSUBS m2_12490_0# m2_12770_0# m3_0_380# m3_0_380# m2_12630_0#
@@ -967,7 +967,7 @@ X0 c1_n400_n350# m3_n500_n450# sky130_fd_pr__cap_mim_m3_1 l=3.5e+06u w=3.5e+06u
 .ends
 
 .subckt ro__rosc_core VSUBS roc__cap_6/m3_n500_n450# roc__cap_3/m3_n500_n450# m1_2397_2642#
-+ roc__cap_0/m3_n500_n450# roc__cap_5/m3_n500_n450# m2_183_2327# li_817_2271# roc__cap_2/m3_n500_n450#
++ roc__cap_0/m3_n500_n450# li_817_2271# roc__cap_5/m3_n500_n450# m2_183_2327# roc__cap_2/m3_n500_n450#
 + m1_n524_2002# roc__cap_4/m3_n500_n450# roc__cap_1/m3_n500_n450#
 Xroc__inv_0 VSUBS m4_2272_1419# m1_2397_2642# m1_2397_2642# m2_183_2327# m1_n524_2002#
 + roc__inv
@@ -997,59 +997,63 @@ X0 a_188_95# a_102_247# a_106_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.69e+11p pd=
 X1 a_188_95# a_102_247# a_106_345# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=2.6e+11p pd=2.52e+06u as=2.6e+11p ps=2.52e+06u w=1e+06u l=150000u
 .ends
 
-.subckt roi__dfrbp_1 VSUBS a_147_411# a_147_95# a_60_247# w_0_309# a_1748_345# a_369_308#
+.subckt roi__dfrbp2 VSUBS a_147_411# a_147_95# a_60_247# w_0_309# a_1876_95# a_369_308#
 + a_885_69#
 X0 a_677_95# a_231_95# a_581_95# VSUBS sky130_fd_pr__nfet_01v8 ad=2.802e+11p pd=2.2e+06u as=1.188e+11p ps=1.38e+06u w=360000u l=150000u
 X1 a_1321_69# a_1146_95# a_1500_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.092e+11p pd=1.36e+06u as=1.281e+11p ps=1.45e+06u w=420000u l=150000u
 X2 a_689_461# a_65_95# a_581_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=3.402e+11p pd=3.3e+06u as=1.449e+11p ps=1.53e+06u w=420000u l=150000u
 X3 a_843_95# a_799_337# a_677_95# VSUBS sky130_fd_pr__nfet_01v8 ad=8.82e+10p pd=1.26e+06u as=0p ps=0u w=420000u l=150000u
 X4 a_581_95# a_231_95# a_486_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.302e+11p ps=1.46e+06u w=420000u l=150000u
-X5 a_147_95# a_885_69# a_843_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.2225e+12p pd=1.139e+07u as=0p ps=0u w=420000u l=150000u
+X5 a_147_95# a_885_69# a_843_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.4305e+12p pd=1.333e+07u as=0p ps=0u w=420000u l=150000u
 X6 a_147_95# a_60_247# a_65_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.092e+11p ps=1.36e+06u w=420000u l=150000u
-X7 a_486_95# a_369_308# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.5393e+12p ps=1.452e+07u w=420000u l=150000u
-X8 a_147_411# a_60_247# a_65_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.664e+11p ps=1.8e+06u w=640000u l=150000u
-X9 a_147_411# a_799_337# a_689_461# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
-X10 a_1748_345# a_1321_69# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.69e+11p pd=1.82e+06u as=0p ps=0u w=650000u l=150000u
-X11 a_147_95# a_1321_69# a_1255_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.338e+11p ps=1.5e+06u w=420000u l=150000u
-X12 a_689_461# a_885_69# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
-X13 a_1500_95# a_885_69# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
-X14 a_147_95# a_1321_69# a_1885_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.092e+11p ps=1.36e+06u w=420000u l=150000u
-X15 a_231_95# a_65_95# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=1.664e+11p pd=1.8e+06u as=0p ps=0u w=640000u l=150000u
-X16 a_147_411# a_1146_95# a_1321_69# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.134e+11p ps=1.38e+06u w=420000u l=150000u
-X17 a_2064_95# a_1885_95# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.69e+11p pd=1.82e+06u as=0p ps=0u w=650000u l=150000u
-X18 a_147_411# a_1321_69# a_1885_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.664e+11p ps=1.8e+06u w=640000u l=150000u
-X19 a_1255_95# a_65_95# a_1146_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.422e+11p ps=1.51e+06u w=360000u l=150000u
-X20 a_1308_461# a_231_95# a_1146_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=1.134e+11p pd=1.38e+06u as=1.176e+11p ps=1.4e+06u w=420000u l=150000u
-X21 a_1146_95# a_65_95# a_799_337# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=2.583e+11p ps=2.37e+06u w=420000u l=150000u
-X22 a_1321_69# a_885_69# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
-X23 a_2064_95# a_1885_95# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=2.6e+11p pd=2.52e+06u as=0p ps=0u w=1e+06u l=150000u
-X24 a_486_95# a_369_308# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.32e+11p pd=1.49e+06u as=0p ps=0u w=420000u l=150000u
-X25 a_147_411# a_1321_69# a_1308_461# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
-X26 a_799_337# a_581_95# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=840000u l=150000u
-X27 a_1748_345# a_1321_69# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=2.8e+11p pd=2.56e+06u as=0p ps=0u w=1e+06u l=150000u
-X28 a_1146_95# a_231_95# a_799_337# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.998e+11p ps=1.97e+06u w=360000u l=150000u
-X29 a_231_95# a_65_95# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.092e+11p pd=1.36e+06u as=0p ps=0u w=420000u l=150000u
-X30 a_799_337# a_581_95# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=640000u l=150000u
-X31 a_581_95# a_65_95# a_486_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=360000u l=150000u
+X7 a_147_95# a_1321_69# a_1876_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=2.015e+11p ps=1.92e+06u w=650000u l=150000u
+X8 a_147_95# a_1697_95# a_2052_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.755e+11p ps=1.84e+06u w=650000u l=150000u
+X9 a_1876_95# a_1321_69# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=3.1e+11p pd=2.62e+06u as=1.809e+12p ps=1.775e+07u w=1e+06u l=150000u
+X10 a_486_95# a_369_308# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X11 a_2052_95# a_1697_95# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=650000u l=150000u
+X12 a_147_411# a_60_247# a_65_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.664e+11p ps=1.8e+06u w=640000u l=150000u
+X13 a_147_411# a_799_337# a_689_461# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X14 a_147_95# a_1321_69# a_1697_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.092e+11p ps=1.36e+06u w=420000u l=150000u
+X15 a_147_95# a_1321_69# a_1255_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.338e+11p ps=1.5e+06u w=420000u l=150000u
+X16 a_689_461# a_885_69# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X17 a_1500_95# a_885_69# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X18 a_231_95# a_65_95# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=1.664e+11p pd=1.8e+06u as=0p ps=0u w=640000u l=150000u
+X19 a_147_411# a_1146_95# a_1321_69# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.134e+11p ps=1.38e+06u w=420000u l=150000u
+X20 a_1255_95# a_65_95# a_1146_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.422e+11p ps=1.51e+06u w=360000u l=150000u
+X21 a_1308_461# a_231_95# a_1146_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=1.134e+11p pd=1.38e+06u as=1.176e+11p ps=1.4e+06u w=420000u l=150000u
+X22 a_1146_95# a_65_95# a_799_337# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=2.583e+11p ps=2.37e+06u w=420000u l=150000u
+X23 a_1321_69# a_885_69# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X24 a_147_411# a_1697_95# a_2052_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=2.7e+11p ps=2.54e+06u w=1e+06u l=150000u
+X25 a_486_95# a_369_308# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.32e+11p pd=1.49e+06u as=0p ps=0u w=420000u l=150000u
+X26 a_147_411# a_1321_69# a_1308_461# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X27 a_799_337# a_581_95# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=840000u l=150000u
+X28 a_147_411# a_1321_69# a_1876_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
+X29 a_2052_95# a_1697_95# a_147_411# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
+X30 a_1146_95# a_231_95# a_799_337# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.998e+11p ps=1.97e+06u w=360000u l=150000u
+X31 a_231_95# a_65_95# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=1.092e+11p pd=1.36e+06u as=0p ps=0u w=420000u l=150000u
+X32 a_799_337# a_581_95# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=640000u l=150000u
+X33 a_581_95# a_65_95# a_486_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=360000u l=150000u
+X34 a_147_411# a_1321_69# a_1697_95# w_0_309# sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.664e+11p ps=1.8e+06u w=640000u l=150000u
+X35 a_1876_95# a_1321_69# a_147_95# VSUBS sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=650000u l=150000u
 .ends
 
-.subckt ro__interface roi__inv_1_1/w_0_309# VSUBS li_110_269# roi__inv_1_1/a_106_345#
-+ m2_1772_374# li_2058_345# roi__inv_1_1/a_106_95#
+.subckt ro__interface VSUBS li_110_269# m2_1772_374# m2_463_444# roi__inv_1_1/w_0_309#
++ roi__inv_1_1/a_106_345# li_2163_345#
 Xroi__inv_1_0 VSUBS li_110_269# roi__inv_1_1/a_106_345# roi__inv_1_1/w_0_309# li_198_154#
-+ roi__inv_1_1/a_106_95# roi__inv_1
-Xroi__inv_1_1 VSUBS li_2058_345# roi__inv_1_1/a_106_345# roi__inv_1_1/w_0_309# m2_463_444#
-+ roi__inv_1_1/a_106_95# roi__inv_1
-Xroi__dfrbp_1_0 VSUBS roi__inv_1_1/a_106_345# roi__inv_1_1/a_106_95# li_198_154# roi__inv_1_1/w_0_309#
-+ li_2058_345# m2_463_444# m2_1772_374# roi__dfrbp_1
++ m2_463_444# roi__inv_1
+Xroi__inv_1_1 VSUBS li_2163_345# roi__inv_1_1/a_106_345# roi__inv_1_1/w_0_309# roi__inv_1_1/a_188_95#
++ m2_463_444# roi__inv_1
+Xroi__dfrbp2_0 VSUBS roi__inv_1_1/a_106_345# m2_463_444# li_198_154# roi__inv_1_1/w_0_309#
++ li_2163_345# m2_463_444# m2_1772_374# roi__dfrbp2
 .ends
 
-.subckt rosc VSUBS m3_9764_0# m3_7446_3993# m3_0_380# m1_8391_3020# m3_0_0# m3_0_3054#
-+ m3_0_7139# m3_9291_380#
+.subckt rosc VSUBS m3_9764_0# m3_0_380# m1_8391_3020# m3_0_0# m3_0_3054# m3_0_7139#
++ m3_9291_380# m3_7400_3993#
 Xro__pmirr_0 VSUBS m3_0_0# m1_3559_3302# m3_0_7139# ro__pmirr
-Xro__rosc_core_0 VSUBS m3_0_380# m3_0_380# m1_3559_3302# m3_0_380# m3_0_380# m1_4204_3020#
-+ m3_0_3054# m3_0_380# m3_0_380# m3_0_380# m3_0_380# ro__rosc_core
-Xro__interface_0 m3_9764_0# VSUBS m1_4204_3020# m3_9764_0# m3_7446_3993# m1_8391_3020#
-+ m3_9291_380# ro__interface
+Xro__rosc_core_0 VSUBS m3_0_380# m3_0_380# m1_3559_3302# m3_0_380# m3_0_3054# m3_0_380#
++ m1_4204_3020# m3_0_380# m3_0_380# m3_0_380# m3_0_380# ro__rosc_core
+Xro__interface_0 VSUBS m1_4204_3020# m3_7400_3993# m3_9291_380# m3_9764_0# m3_9764_0#
++ m1_8391_3020# ro__interface
 .ends
 
 .subckt pg__MPINV VSUBS a_n40_n161# a_n98_n64# w_n134_n164# a_40_n64#
@@ -1068,7 +1072,7 @@ X0 a_40_n131# a_n40_n157# a_n98_n131# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.9e+
 X0 a_50_n131# a_n50_n157# a_n108_n131# VSUBS sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=500000u
 .ends
 
-.subckt passgate VSUBS m2_1694_0# m1_0_923# m1_103_270# w_73_1005# m2_1010_0#
+.subckt passgate m2_1694_0# VSUBS m1_0_923# m1_103_270# w_73_1005# m2_1010_0#
 Xpg__MPINV_0 VSUBS m1_0_923# w_73_1005# w_73_1005# m1_444_471# pg__MPINV
 Xpg__MPINV_1 VSUBS m1_444_471# w_73_1005# w_73_1005# m2_844_991# pg__MPINV
 Xpg__MSP_0 VSUBS m2_514_847# m2_1694_0# w_73_1005# m2_1010_0# pg__MSP
@@ -1240,13 +1244,13 @@ Xmodule_decap_2 VSUBS m4_37496_0# m3_4861_380# module_decap
 Xregulator_1 VSUBS m3_4861_380# m4_2079_31107# m2_0_36321# m2_0_37864# m2_0_38704#
 + m4_136_0# regulator
 Xmodule_decap_3 VSUBS m4_37496_0# m3_4861_380# module_decap
-Xrosc_0 VSUBS m4_37496_0# m3_0_7751# m3_4861_380# m3_24542_3884# m4_136_0# m3_0_6765#
-+ m2_0_38844# m3_4861_380# rosc
+Xrosc_0 VSUBS m4_37496_0# m3_4861_380# m3_24542_3884# m4_136_0# m3_0_6765# m2_0_38844#
++ m3_4861_380# m3_0_7751# rosc
 Xmodule_decap_4 VSUBS m4_37496_0# m3_4861_380# module_decap
-Xpassgate_0 VSUBS m2_3852_39124# m2_0_52504# m3_4861_380# m4_2079_31107# m3_0_52730#
+Xpassgate_0 m2_3852_39124# VSUBS m2_0_52504# m3_4861_380# m4_2079_31107# m3_0_52730#
 + passgate
 Xmodule_decap_5 VSUBS m4_37496_0# m3_4861_380# module_decap
-Xpassgate_1 VSUBS m2_3852_39124# m1_8103_51232# m3_4861_380# m4_2079_31107# m3_9177_52208#
+Xpassgate_1 m2_3852_39124# VSUBS m1_8103_51232# m3_4861_380# m4_2079_31107# m3_9177_52208#
 + passgate
 Xmodule_decap_6 VSUBS m4_37496_0# m3_4861_380# module_decap
 Xclksel_0 VSUBS m3_24805_3734# m3_0_7911# m3_4861_380# m3_29611_3856# m3_0_8071# m3_0_7751#
@@ -3284,26 +3288,26 @@ XMNG_2 VSUBS MNG_4/w_n1084_n157# VSUBS VSUBS m3_0_336# MNG
 + la_data_in[113] user_irq[1] la_data_in[114] user_irq[2] la_data_out[111] la_data_out[112]
 + la_data_out[109] la_data_in[109] la_data_out[113] la_data_in[110] la_data_out[114]
 + la_oenb[108] la_data_out[115] la_data_out[116] la_data_in[111] la_data_out[117]
-+ la_data_in[115] la_data_out[118] la_data_out[119] io_analog[4] io_analog[5] io_analog[6]
-+ gpio_analog[2] gpio_analog[3] gpio_analog[4] gpio_analog[5] gpio_analog[6] gpio_noesd[2]
-+ gpio_noesd[3] gpio_noesd[4] gpio_noesd[5] gpio_noesd[6] io_analog[0] io_analog[1]
-+ io_analog[2] io_analog[3] io_clamp_high[0] io_clamp_low[0] io_in[10] io_in[11] io_in[12]
-+ io_in[13] io_in[9] io_in_3v3[10] io_in_3v3[11] io_in_3v3[12] io_in_3v3[13] io_in_3v3[9]
-+ io_oeb[10] io_oeb[11] io_oeb[12] io_oeb[13] io_oeb[9] io_out[10] io_out[11] io_out[12]
-+ io_out[13] io_out[9] vccd1 vdda1 vssa1 io_in[16] io_in[17] gpio_analog[9] gpio_noesd[10]
-+ io_analog[7] io_in_3v3[14] io_in_3v3[15] io_in_3v3[16] io_in_3v3[17] io_analog[8]
-+ io_analog[9] gpio_noesd[7] io_oeb[14] io_oeb[15] io_oeb[16] io_oeb[17] gpio_noesd[8]
-+ io_clamp_high[1] io_clamp_high[2] gpio_noesd[9] io_clamp_low[1] io_out[14] io_out[15]
-+ io_out[16] io_out[17] io_clamp_low[2] gpio_analog[10] io_analog[10] vccd2 gpio_analog[7]
-+ gpio_analog[8] io_in[14] io_in[15] vssa2 io_in_3v3[24] io_in_3v3[25] io_in_3v3[26]
-+ gpio_analog[16] gpio_analog[17] gpio_analog[11] gpio_analog[12] gpio_noesd[11] io_in[18]
-+ io_in[19] io_in[20] io_in[21] io_oeb[18] io_oeb[19] io_oeb[20] io_oeb[21] io_oeb[22]
-+ io_oeb[23] io_oeb[24] io_oeb[25] io_oeb[26] io_in[22] io_in[23] io_in[24] io_in[25]
-+ io_in[26] gpio_noesd[12] gpio_noesd[13] gpio_noesd[14] gpio_noesd[15] io_out[18]
-+ io_out[19] io_out[20] io_out[21] io_out[22] io_out[23] io_out[24] io_out[25] io_out[26]
-+ gpio_noesd[16] gpio_noesd[17] gpio_analog[13] gpio_analog[14] gpio_analog[15] io_in_3v3[18]
-+ io_in_3v3[19] vdda2 io_in_3v3[20] io_in_3v3[21] io_in_3v3[22] io_in_3v3[23] vssd2
-+ io_in_3v3[6] io_in_3v3[7] io_in_3v3[8] io_in[1] io_oeb[0] gpio_noesd[0] io_in[2]
++ la_data_in[115] la_data_out[118] la_data_out[119] gpio_analog[2] gpio_analog[3]
++ gpio_analog[4] gpio_analog[5] gpio_analog[6] gpio_noesd[2] gpio_noesd[3] gpio_noesd[4]
++ gpio_noesd[5] gpio_noesd[6] io_analog[0] io_analog[1] io_analog[2] io_analog[3]
++ io_analog[4] io_clamp_high[0] io_clamp_low[0] io_in[10] io_in[11] io_in[12] io_in[13]
++ io_in[9] io_in_3v3[10] io_in_3v3[11] io_in_3v3[12] io_in_3v3[13] io_in_3v3[9] io_oeb[10]
++ io_oeb[11] io_oeb[12] io_oeb[13] io_oeb[9] io_out[10] io_out[11] io_out[12] io_out[13]
++ io_out[9] vccd1 vdda1 vssa1 io_in[16] io_in[17] gpio_analog[9] gpio_noesd[10] io_analog[5]
++ io_analog[6] io_analog[7] io_in_3v3[14] io_in_3v3[15] io_in_3v3[16] io_in_3v3[17]
++ io_analog[8] io_analog[9] gpio_noesd[7] io_oeb[14] io_oeb[15] io_oeb[16] io_oeb[17]
++ gpio_noesd[8] io_clamp_high[1] io_clamp_high[2] gpio_noesd[9] io_clamp_low[1] io_out[14]
++ io_out[15] io_out[16] io_out[17] io_clamp_low[2] gpio_analog[10] io_analog[10] vccd2
++ gpio_analog[7] gpio_analog[8] io_in[14] io_in[15] vssa2 io_in_3v3[24] io_in_3v3[25]
++ io_in_3v3[26] gpio_analog[16] gpio_analog[17] gpio_analog[11] gpio_analog[12] gpio_noesd[11]
++ io_in[18] io_in[19] io_in[20] io_in[21] io_oeb[18] io_oeb[19] io_oeb[20] io_oeb[21]
++ io_oeb[22] io_oeb[23] io_oeb[24] io_oeb[25] io_oeb[26] io_in[22] io_in[23] io_in[24]
++ io_in[25] io_in[26] gpio_noesd[12] gpio_noesd[13] gpio_noesd[14] gpio_noesd[15]
++ io_out[18] io_out[19] io_out[20] io_out[21] io_out[22] io_out[23] io_out[24] io_out[25]
++ io_out[26] gpio_noesd[16] gpio_noesd[17] gpio_analog[13] gpio_analog[14] gpio_analog[15]
++ io_in_3v3[18] io_in_3v3[19] vdda2 io_in_3v3[20] io_in_3v3[21] io_in_3v3[22] io_in_3v3[23]
++ vssd2 io_in_3v3[6] io_in_3v3[7] io_in_3v3[8] io_in[1] io_oeb[0] gpio_noesd[0] io_in[2]
 + io_in[3] io_in[4] io_in[5] io_out[1] io_in[6] io_in_3v3[1] io_in[7] io_in[8] gpio_analog[0]
 + io_oeb[1] io_in_3v3[0] io_out[2] io_out[3] io_out[4] io_out[5] io_out[6] io_out[7]
 + io_out[8] gpio_analog[1] gpio_noesd[1] io_in[0] io_in_3v3[2] io_in_3v3[3] io_in_3v3[4]
